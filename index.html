@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Minimal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo"><img src="Assest\logo.png" alt="MM" /></a>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <span class="subtitle">Junior Software Engineer</span>
+          <h1>
+            Crafting clean, modern<br />
+            web experiences and<br />
+            practical solutions.
+          </h1>
+          <p>
+            I work with PHP, MySQL, JavaScript, and React to build simple,
+            reliable, and user-focused applications. At weDevs, I’m learning
+            real-world PHP development, exploring OOP, MVC patterns, and
+            database design while creating small full-stack projects and
+            sharpening my front-end skills.
+          </p>
+          <div class="btn-group">
+            <a href="#projects" class="btn btn-primary">See My Work</a>
+            <a href="#contact" class="btn btn-text"
+              >Contact Me <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead">
+              Hello! I’m Midu, a junior software engineer building my path
+              toward full-stack development.
+            </p>
+
+            <p>
+              I’ve always enjoyed working with <b>Java, OOP, and databases</b>.
+              That interest shaped the way I approach software development and
+              pushed me to go deeper into backend concepts. Right now, I’m
+              working at <strong>weDevs</strong>, where I’m learning real-world
+              PHP development and building small full-stack applications using
+              PHP, MySQL, and modern web tools. <br /><br />
+              I started with the fundamentals like HTML, CSS, and JavaScript,
+              and I’ve been growing steadily into more advanced topics. I’ve
+              learned PHP, OOP, database design, phpMyAdmin, and MySQL through
+              hands-on projects. I’m currently learning React to strengthen my
+              frontend skills and move closer to becoming a complete full-stack
+              engineer.
+            </p>
+
+            <div class="skills-wrapper">
+              <h3>Tech Stack</h3>
+              <ul class="tech-list">
+                <li>Java</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>phpMyAdmin</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Project Work</h2>
+        </div>
+
+        <div class="project-list">
+          <!-- IntelliAssist -->
+          <article class="project-item">
+            <div class="project-info">
+              <h3>IntelliAssist</h3>
+              <p class="project-desc">
+                A smart chatbot designed for SUST students to deliver instant
+                academic and administrative information. Built with Firebase and
+                Dialogflow and prepared for future integration with the official
+                university site.
+              </p>
+              <ul class="project-tags">
+                <li>Flutter</li>
+                <li>Firebase</li>
+                <li>Dialogflow API</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#" target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- BloodConnect -->
+          <article class="project-item">
+            <div class="project-info">
+              <h3>BloodConnect</h3>
+              <p class="project-desc">
+                Mobile app that connects blood donors and recipients based on
+                location and blood group. Includes automated donor eligibility
+                checks and notification workflows.
+              </p>
+              <ul class="project-tags">
+                <li>Flutter</li>
+                <li>Firebase</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#" target="_blank"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <div class="section-header">
+          <h2>Path</h2>
+        </div>
+
+        <div class="timeline-grid">
+          <!-- Experience -->
+          <div class="timeline-column">
+            <h3>Experience</h3>
+
+            <div class="timeline-item">
+              <span class="year">Nov 2025 — Present</span>
+              <h4>Junior Software Engineer</h4>
+              <span class="company">weDevs</span>
+              <p>
+                Learning and applying PHP, OOP, MVC, and database design while
+                building small full-stack features with PHP, MySQL, HTML, CSS,
+                and JavaScript. Strengthening frontend skills and currently
+                exploring React.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="year">Jun 2025 — Sep 2025</span>
+              <h4>Software Developer Intern</h4>
+              <span class="company">Selegic Inc</span>
+              <p>
+                Worked on internal tools using Salesforce CRM, Apex, Angular,
+                and TypeScript. Developed full-stack features, integrated APIs,
+                and helped improve performance, scalability, and user experience
+                across multiple products.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education + Extras -->
+          <div class="timeline-column">
+            <h3>Education</h3>
+            <div class="timeline-item">
+              <span class="year">2020 — 2025</span>
+              <h4>BSc in Computer Science & Engineering</h4>
+              <span class="company"
+                >Shahjalal University of Science and Technology</span
+              >
+              <p>CGPA: 3.36 / 4.00</p>
+            </div>
+
+            <h3 class="mt-large">Extras</h3>
+            <ul class="extras-list">
+              <li>
+                <i class="fas fa-trophy"></i> Samsung Code Contest 2024 – Top
+                300
+              </li>
+              <li>
+                <i class="fas fa-medal"></i> Brain Craft Intra SUST Contest 2023
+                – Rank 25
+              </li>
+              <li>
+                <i class="fas fa-chart-line"></i> 2000+ problems solved across
+                CF, LC, AtCoder
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container reveal center-text">
+        <h2>What’s Next?</h2>
+        <p class="contact-text">
+          I’m always looking to grow as a full-stack developer, whether that
+          means working on new projects, joining awesome teams, or just chatting
+          about code. If you want to connect, ask something, or just say hello,
+          feel free to reach out!
+        </p>
+        <a href="mailto:midumojumder8@gmail.com" class="btn btn-primary"
+          >Say Hello</a
+        >
+
+        <div class="socials">
+          <a href="https://github.com/midu-01">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/midumojumder/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a href="https://www.facebook.com/MiduMojumder01">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a href="mailto:midumojumder8@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <a href="https://www.instagram.com/midu.mojumder/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- Add other socials if you like -->
+        </div>
+
+        <div class="footer-bottom">
+          <p>Designed & Built by Midu Mojumder.</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
